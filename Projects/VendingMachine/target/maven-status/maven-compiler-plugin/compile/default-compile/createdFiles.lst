@@ -1,0 +1,17 @@
+sg\vendingmachine\Controller\VendingMachineController.class
+sg\vendingmachine\Dao\VendingMachineDaoFileImpl.class
+sg\vendingmachine\Service\OutOfStockException.class
+sg\vendingmachine\Service\InvalidIdException.class
+sg\vendingmachine\ui\UserIO.class
+sg\vendingmachine\Dao\VendingMachineDaoException.class
+sg\vendingmachine\Service\InsufficientFundsException.class
+sg\vendingmachine\ui\VendingMachineView.class
+sg\vendingmachine\ui\UserIOConsoleImpl.class
+sg\vendingmachine\Service\VendingMachineServiceLayerException.class
+sg\vendingmachine\Service\VendingMachineServiceLayer.class
+sg\vendingmachine\Dao\VendingMachineDao.class
+sg\vendingmachine\Dao\VendingMachinePersistenceException.class
+sg\vendingmachine\dtos\Item.class
+sg\vendingmachine\dtos\Change.class
+sg\vendingmachine\Service\VendingMachineServiceLayerImpl.class
+sg\vendingmachine\App.class

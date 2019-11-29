@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: sg.classroster.service.ClassRosterServiceLayerTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.376 sec <<< FAILURE! - in sg.classroster.service.ClassRosterServiceLayerTest
+testCreateStudent  Time elapsed: 0.004 sec  <<< ERROR!
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.sg.classroster.dao.ClassRosterDaoFileImpl] for bean with name 'classRosterDao' defined in class path resource [applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: com.sg.classroster.dao.ClassRosterDaoFileImpl
+	at sg.classroster.service.ClassRosterServiceLayerTest.<init>(ClassRosterServiceLayerTest.java:42)
+Caused by: java.lang.ClassNotFoundException: com.sg.classroster.dao.ClassRosterDaoFileImpl
+	at sg.classroster.service.ClassRosterServiceLayerTest.<init>(ClassRosterServiceLayerTest.java:42)
+
+testGetStudent  Time elapsed: 0.001 sec  <<< ERROR!
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.sg.classroster.dao.ClassRosterDaoFileImpl] for bean with name 'classRosterDao' defined in class path resource [applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: com.sg.classroster.dao.ClassRosterDaoFileImpl
+	at sg.classroster.service.ClassRosterServiceLayerTest.<init>(ClassRosterServiceLayerTest.java:42)
+Caused by: java.lang.ClassNotFoundException: com.sg.classroster.dao.ClassRosterDaoFileImpl
+	at sg.classroster.service.ClassRosterServiceLayerTest.<init>(ClassRosterServiceLayerTest.java:42)
+
+TestCreateStudentInvalidData  Time elapsed: 0.001 sec  <<< ERROR!
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.sg.classroster.dao.ClassRosterDaoFileImpl] for bean with name 'classRosterDao' defined in class path resource [applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: com.sg.classroster.dao.ClassRosterDaoFileImpl
+	at sg.classroster.service.ClassRosterServiceLayerTest.<init>(ClassRosterServiceLayerTest.java:42)
+Caused by: java.lang.ClassNotFoundException: com.sg.classroster.dao.ClassRosterDaoFileImpl
+	at sg.classroster.service.ClassRosterServiceLayerTest.<init>(ClassRosterServiceLayerTest.java:42)
+
+testGetAllStudents  Time elapsed: 0 sec  <<< ERROR!
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.sg.classroster.dao.ClassRosterDaoFileImpl] for bean with name 'classRosterDao' defined in class path resource [applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: com.sg.classroster.dao.ClassRosterDaoFileImpl
+	at sg.classroster.service.ClassRosterServiceLayerTest.<init>(ClassRosterServiceLayerTest.java:42)
+Caused by: java.lang.ClassNotFoundException: com.sg.classroster.dao.ClassRosterDaoFileImpl
+	at sg.classroster.service.ClassRosterServiceLayerTest.<init>(ClassRosterServiceLayerTest.java:42)
+
+testCreateStudentDuplicateId  Time elapsed: 0 sec  <<< ERROR!
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.sg.classroster.dao.ClassRosterDaoFileImpl] for bean with name 'classRosterDao' defined in class path resource [applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: com.sg.classroster.dao.ClassRosterDaoFileImpl
+	at sg.classroster.service.ClassRosterServiceLayerTest.<init>(ClassRosterServiceLayerTest.java:42)
+Caused by: java.lang.ClassNotFoundException: com.sg.classroster.dao.ClassRosterDaoFileImpl
+	at sg.classroster.service.ClassRosterServiceLayerTest.<init>(ClassRosterServiceLayerTest.java:42)
+
+testRemoveStudent  Time elapsed: 0 sec  <<< ERROR!
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.sg.classroster.dao.ClassRosterDaoFileImpl] for bean with name 'classRosterDao' defined in class path resource [applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: com.sg.classroster.dao.ClassRosterDaoFileImpl
+	at sg.classroster.service.ClassRosterServiceLayerTest.<init>(ClassRosterServiceLayerTest.java:42)
+Caused by: java.lang.ClassNotFoundException: com.sg.classroster.dao.ClassRosterDaoFileImpl
+	at sg.classroster.service.ClassRosterServiceLayerTest.<init>(ClassRosterServiceLayerTest.java:42)
+

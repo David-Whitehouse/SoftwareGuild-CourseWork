@@ -1,0 +1,5 @@
+1,Skittles,1.25,0
+2,Snickers,1.25,0
+3,Chips,1.50,89
+4,Gum,0.50,99
+5,Cookies,1.75,100

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<head>
+
+
+    <title>Vending Machine</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="text-align: center">Vending Machine</h1>
+        <hr />
+
+        <div class="row">
+            <div class="col-md-9">
+                <div id="displayedItems" class="col1-9">
+
+                </div>
+            </div>
+
+
+            <div class="col-md-3" style="text-align: center">
+
+                <h3>Total $ In</h3>
+                <input id="storedMoney" value="0" type="text" readonly />
+                </br>
+                <button id="addDollar" onclick="addMoney('1.00')" type="default" style="width: 40%; margin: 5px">Add
+                    Dollar</button>
+                
+                <button id="addQuarter" onclick="addMoney('.25')" type="default" style="width: 40%; margin: 5px">Add
+                    Quarter</button>
+                </br>
+                <button id="addDime" onclick="addMoney('.10')" type="default" style="width: 40%; margin: 5px">Add
+                    Dime</button>
+                <button id="addNickel" onclick="addMoney('.05')" type="default" style="width: 40%; margin: 5px">Add
+                    Nickel</button>
+                <hr />
+                <h3>Messages</h3>
+
+                <input id="message" type="text" style="margin: 5px" readonly />
+                </br>
+                <label>Item:</label>
+                <input id="selectedItemId" type="text" style="width: 15%" readonly />
+                <button id="makePurchase" onclick="vendItem($('#selectedItemId').val())" type="default"
+                    style="width: 35%; margin: 5px">Make Purchase</button>
+                <hr />
+                <h3>Change</h3>
+                <input id="showChange" type="text" style="margin: 5px; width: 100%" readonly />
+                <button id="returnChange" onclick="returnChange()" type="default" style="width: 50%; margin: 5px">Return
+                    Change</button>
+
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/home.js"></script>
+</body>

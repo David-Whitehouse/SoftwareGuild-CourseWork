@@ -1,0 +1,4 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCost
+PerSquareFoot,MaterialCost,LaborCost,Tax,Total
+2,aaa,OH,6.25,Laminate,100.00,1.75,2.10,175.00,210.00,24.06,409.06
+3,bob,OH,6.25,Wood,100.00,5.15,4.75,515.00,475.00,61.88,1051.88

@@ -1,0 +1,8 @@
+sg\flooringmastery\daos\StateTaxInMemoDao.class
+sg\flooringmastery\daos\OrdersInMemoDao.class
+sg\flooringmastery\daos\ProductsAlwaysFailDao.class
+sg\flooringmastery\daos\OrdersDaoFileImplTest.class
+sg\flooringmastery\daos\OrdersAlwaysFailDao.class
+sg\flooringmastery\Service\FlooringServiceImplTest.class
+sg\flooringmastery\daos\StateTaxAlwaysFailDao.class
+sg\flooringmastery\daos\ProductsInMemoDao.class
